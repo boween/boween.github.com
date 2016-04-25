@@ -150,7 +150,20 @@
                         <a href="http://www.nefu.edu.cn/" target="_blank">
                             <!--<img   src="images/edu-logo-scnu.png" alt="东北林业大学" class="edu__logo">-->
                                 <img  id="rotatey1" onmouseover="rotateYDIV()" src="images/edu-logo-scnu.png" alt="东北林业大学" class="edu__logo">
-
+                            <script>
+                                $(window).scroll(function () {
+//                                    console.log($(window).scrollTop())
+//                                    if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+                                    if ($(window).scrollTop() == 400) {
+                                        rotateYDIV()
+//                                        document.getElementById("rotatey1").style.animation="edulogo 2s linear 0s infinite alternate";
+                                    }
+//                                    else
+//                                    {
+////                                        document.getElementById("rotatey1").style.animation="edulogo 2s linear 0s 1 alternate";
+//                                    }
+                                });
+                            </script>
                         </a>
                         <p>2013年9月至2015年6月在<strong>东北林业大学</strong>修读<strong>软件工程</strong>专业，取得<strong>硕士学位</strong>。在校期间曾获以下奖项：</p>
                         <ul class="list">

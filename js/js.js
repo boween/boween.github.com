@@ -28,6 +28,7 @@
 
 var y,ny= 0;
 function rotateYDIV(){
+    //document.getElementById("rotatey1").style.cssText = ""
     function rander(){
         y=document.getElementById("rotatey1");
         ny=ny+6;

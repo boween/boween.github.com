@@ -444,7 +444,20 @@ a.button { display: inline-block; }
 	.footer__copyright { margin-top: 7px; float: right; }
 	.footer__copyright p { text-align: right; }
 }
+/*@keyframes edulogo*/
+/*{*/
+	/*from {transform: rotateY(0deg);}*/
+	/*to {transform: rotateY(360deg);}*/
+/*}*/
+/*#rotatey1*/
+/*{*/
+	/*animation: edulogo 2s;*/
+	/*-moz-animation: edulogo 2s;	!* Firefox *!*/
+	/*-webkit-animation: edulogo 2s;	!* Safari 和 Chrome *!*/
+	/*-o-animation: edulogo 2s;	!* Opera *!*/
+/*}*/
 /*.edu__logo{*/
+/*指针拂过显示动画效果*/
 
 	/*transform: rotateY(0deg);*/
 	/*transition: transform 0.3s;*/
