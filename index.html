@@ -32,13 +32,7 @@
         <address class="header__address">
             <ul>
                 <li id="header__address__item-phone" class="header__address__item header__address__item-phone only-for-print" style="display: none;">
-                    <script>
-//                        console.log(window.btoa('(+86)18611605689'))
-                    if (window.atob) { document.write( window.atob('KCs4NikxODYxMTYwNTY4OQ==') ); }
-                    if ( /[?&]show-phone-number=true(&|$)/.test(window.location.search) ) {
-                        document.getElementById('header__address__item-phone').style.display = 'block';
-                    }
-                    </script>
+                    <script>phonenumberencryption()</script>
                 </li>
                 <li class="header__address__item header__address__item-qq">
                     <script>
@@ -55,7 +49,6 @@
         </address>
     </div>
 </header>
-
 <div class="main">
     <section class="section">
         <div class="boundary">
@@ -154,18 +147,7 @@
                             <!--<img   src="images/edu-logo-scnu.png" alt="东北林业大学" class="edu__logo">-->
                                 <img  id="rotatey1" onmouseover="rotateYDIV()" src="images/edu-logo-scnu.png" alt="东北林业大学" class="edu__logo">
                             <script>
-                                $(window).scroll(function () {
-//                                    console.log($(window).scrollTop())
-//                                    if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-                                    if ($(window).scrollTop() == parseInt($(window).height()/200)*100) {
-                                        rotateYDIV()
-//                                        document.getElementById("rotatey1").style.animation="edulogo 2s linear 0s infinite alternate";
-                                    }
-//                                    else
-//                                    {
-////                                        document.getElementById("rotatey1").style.animation="edulogo 2s linear 0s 1 alternate";
-//                                    }
-                                });
+
                             </script>
                         </a>
                         <p>2013年9月至2015年6月在<strong>东北林业大学</strong>修读<strong>软件工程</strong>专业，取得<strong>硕士学位</strong>。在校期间曾获以下奖项：</p>
