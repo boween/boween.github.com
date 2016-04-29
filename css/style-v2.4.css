@@ -40,7 +40,7 @@ a:hover { text-decoration: underline; }
 	.boundary { max-width: 980px; margin: 0 auto; clear: both; }
 }
 @media (min-width: 750px) and (max-width: 1040px) {
-	.boundary { max-width: auto; margin: 0 30px; }
+	.boundary {  margin: 0 30px; }
 }
 
 /* 通用列表样式 */
@@ -158,8 +158,8 @@ a.button { display: inline-block; }
 /* 技术技能章节 */
 .tech-skill-list__item {
 	position: relative;
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s;
+	-webkit-animation-duration: 3.5s;
+	animation-duration: 3.5s;
 }
 .tech-skill-list__item-javascript {
 	-webkit-animation-name: bar-javascript;
@@ -315,7 +315,9 @@ a.button { display: inline-block; }
 	.edu-university { padding-left: 4%; }
 	.edu-seniorschool .edu__body { padding-right: 180px; }
 	.edu-university .edu__body { padding-left: 180px; }
-	.edu__logo { width: 150px; }
+	.edu__logo {
+		width: 150px;
+	}
 	.edu-seniorschool .edu__logo { float: right; margin-right: -180px;}
 	.edu-university .edu__logo { float: left; margin-left: -180px; }
 
