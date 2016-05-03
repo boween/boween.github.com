@@ -34,7 +34,7 @@
                 <li id="header__address__item-phone" class="header__address__item header__address__item-phone only-for-print" style="display: none;">
                     <script>phonenumberencryption()</script>
                 </li>
-                <li class="header__address__item header__address__item-qq">
+                <li class="header__address__item header__address__item-qq" onClick="qqhref()">
                     <script>
                     document.write( 'a1b4c8d0e5f6g8h7iff8uii'.replace(/\D/g, '') );
                     </script>
@@ -271,102 +271,102 @@
     <section class="section">
         <div class="boundary">
             <header class="section__header">
-                <h2 class="section__header__title">丰富的项目经验</h2>
+                <h2 class="section__header__title">项目与工作经验</h2>
                 <h3 class="section__header__subtitle">业余项目与公司项目相互促进</h3>
             </header>
             <div class="section-body">
-                <section class="project clearfix">
-                    <div class="project__intro">
-                        <header class="project__intro__header clearfix">
-                            <h4 class="project__intro__header__title">JRaiser</h4>
-                            <ul class="tech-tag-list">
-                                <li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>
-                                <li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>
-                            </ul>
-                            <p class="project__intro__header__period">2008/2 至今</p>
-                        </header>
-                        <p>1.x版是仿jQuery开发的基础库+UI库，曾用于网易门户网站，已停止维护。此版本存在的最大问题是全局变量冲突和版本冲突。</p>
-                        <p>2.x版是基于CMD规范的<strong>模块化类库</strong>，包含大量<strong>基础功能模块</strong>和<strong>UI组件</strong>，还有配套的<strong>模块编译器</strong>和<strong>文档生成器</strong>。2013年起应用在56网。</p>
-                        <p class="project__intro__links">
-                            <a href="http://jraiser.org/" target="_blank">官方网站</a>
-                            <a href="https://github.com/heeroluo/jraiser" target="_blank">项目地址</a>
-                        </p>
-                    </div>
-                    <div class="project__thumb">
-                        <img src="images/project-jraiser.png" alt="Javascript类库JRaiser">
-                    </div>
-                </section>
-                <section class="project project--nothumb clearfix">
-                    <div class="project__intro">
-                        <header class="project__intro__header clearfix">
-                            <h4 class="project__intro__header__title">Back2Front</h4>
-                            <ul class="tech-tag-list">
-                                <li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>
-                            </ul>
-                            <p class="project__intro__header__period">2015/5 至今</p>
-                        </header>
-                        <p>基于<strong>Express</strong>开发的<strong>前后端中间平台</strong>，实现原理是请求（HTTP GET）后端API数据，并通过<strong>XTemplate</strong>渲染HTML。在服务器上使用<strong>PM2</strong>进行进程管理。</p>
-                        <p>有了这个平台，前端开发人员可以直接编写页面模板，<strong>避免了前端写HTML后端套模板模式所需要的沟通</strong>。此外，还依靠XTemplate的通用性实现了<strong>前后端模板共用</strong>。</p>
-                    </div>
-                </section>
-                <section class="project project--nothumb clearfix">
-                    <div class="project__intro">
-                        <header class="project__intro__header clearfix">
-                            <h4 class="project__intro__header__title">美黛拉前端代码构建工具</h4>
-                            <ul class="tech-tag-list">
-                                <li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>
-                            </ul>
-                            <p class="project__intro__header__period">2015/4 至今</p>
-                        </header>
-                        <p>基于<strong>Gulp</strong>开发的<storng>代码构建工具，构建流程包括：</storng></p>
-                        <ul class="list">
-                            <li>替换静态资源、异步API的主机名为对应环境（预发布环境或生产环境）的主机名；</li>
-                            <li>压缩代码；</li>
-                            <li>在文件名中添加MD5戳并替换对应的引用路径（对于模块化的JS文件，还要为加载器生成一份映射表）。</li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="project clearfix">
-                    <div class="project__intro">
-                        <header class="project__intro__header clearfix">
-                            <h4 class="project__intro__header__title">56网HTML5视频上传</h4>
-                            <ul class="tech-tag-list">
-                                <li class="tech-tag-list__item tech-tag-list__item-html">HTML 5</li>
-                                <li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>
-                            </ul>
-                            <p class="project__intro__header__period">2013/3 至今</p>
-                        </header>
-                        <p>通过XMLHttpRequest 2.0实现支持PC现代浏览器、<strong>移动浏览器</strong>的视频上传，且能实时显示上传进度和速度。</p>
-                        <p>后来进一步改良为<strong>断点续传</strong>，通过File类的slice方法把文件分块上传，并把上传进度记录在localStorage中。一旦上传中断，短时间内再上传同一个文件可以续传。</p>
-                        <p class="project__intro__links">
-                            <a href="http://upload.56.com/v/" target="_blank">在线地址</a>
-                        </p>
-                    </div>
-                    <div class="project__thumb">
-                        <img src="images/project-56upload.jpg" alt="56网HTML5视频上传">
-                    </div>
-                </section>
-                <section class="project clearfix">
-                    <div class="project__intro">
-                        <header class="project__intro__header clearfix">
-                            <h4 class="project__intro__header__title">56网PC视频播放页</h4>
-                            <ul class="tech-tag-list">
-                                <li class="tech-tag-list__item tech-tag-list__item-html">HTML</li>
-                                <li class="tech-tag-list__item tech-tag-list__item-css">CSS</li>
-                                <li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>
-                            </ul>
-                            <p class="project__intro__header__period">2012/11 至今</p>
-                        </header>
-                        <p>用户观看视频的主页面，其大部分内容是通过JS加载的。为了提高性能，采用了<strong>延迟加载</strong>、<strong>延迟渲染</strong>、<strong>事件代理</strong>等优化方式。</p>
-                        <p>此外，还通过监听页面的window.onerror事件<strong>对异常信息进行采集</strong>，以便及时发现和排查故障。</p>
-                        <p class="project__intro__links">
-                            <a href="http://www.56.com/u19/v_MTI2MDc5MTky.html" target="_blank">在线地址</a>
-                        </p>
-                    </div>
-                    <div class="project__thumb">
-                        <img src="images/project-56pcplaypage.jpg" alt="56网PC视频播放页">
-                    </div>
-                </section>
+                <!--<section class="project clearfix">-->
+                    <!--<div class="project__intro">-->
+                        <!--<header class="project__intro__header clearfix">-->
+                            <!--<h4 class="project__intro__header__title">JRaiser</h4>-->
+                            <!--<ul class="tech-tag-list">-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>-->
+                            <!--</ul>-->
+                            <!--<p class="project__intro__header__period">2008/2 至今</p>-->
+                        <!--</header>-->
+                        <!--<p>1.x版是仿jQuery开发的基础库+UI库，曾用于网易门户网站，已停止维护。此版本存在的最大问题是全局变量冲突和版本冲突。</p>-->
+                        <!--<p>2.x版是基于CMD规范的<strong>模块化类库</strong>，包含大量<strong>基础功能模块</strong>和<strong>UI组件</strong>，还有配套的<strong>模块编译器</strong>和<strong>文档生成器</strong>。2013年起应用在56网。</p>-->
+                        <!--<p class="project__intro__links">-->
+                            <!--<a href="http://jraiser.org/" target="_blank">官方网站</a>-->
+                            <!--<a href="https://github.com/heeroluo/jraiser" target="_blank">项目地址</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                    <!--<div class="project__thumb">-->
+                        <!--<img src="images/project-jraiser.png" alt="Javascript类库JRaiser">-->
+                    <!--</div>-->
+                <!--</section>-->
+                <!--<section class="project project&#45;&#45;nothumb clearfix">-->
+                    <!--<div class="project__intro">-->
+                        <!--<header class="project__intro__header clearfix">-->
+                            <!--<h4 class="project__intro__header__title">Back2Front</h4>-->
+                            <!--<ul class="tech-tag-list">-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>-->
+                            <!--</ul>-->
+                            <!--<p class="project__intro__header__period">2015/5 至今</p>-->
+                        <!--</header>-->
+                        <!--<p>基于<strong>Express</strong>开发的<strong>前后端中间平台</strong>，实现原理是请求（HTTP GET）后端API数据，并通过<strong>XTemplate</strong>渲染HTML。在服务器上使用<strong>PM2</strong>进行进程管理。</p>-->
+                        <!--<p>有了这个平台，前端开发人员可以直接编写页面模板，<strong>避免了前端写HTML后端套模板模式所需要的沟通</strong>。此外，还依靠XTemplate的通用性实现了<strong>前后端模板共用</strong>。</p>-->
+                    <!--</div>-->
+                <!--</section>-->
+                <!--<section class="project project&#45;&#45;nothumb clearfix">-->
+                    <!--<div class="project__intro">-->
+                        <!--<header class="project__intro__header clearfix">-->
+                            <!--<h4 class="project__intro__header__title">美黛拉前端代码构建工具</h4>-->
+                            <!--<ul class="tech-tag-list">-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-nodejs">Node.js</li>-->
+                            <!--</ul>-->
+                            <!--<p class="project__intro__header__period">2015/4 至今</p>-->
+                        <!--</header>-->
+                        <!--<p>基于<strong>Gulp</strong>开发的<storng>代码构建工具，构建流程包括：</storng></p>-->
+                        <!--<ul class="list">-->
+                            <!--<li>替换静态资源、异步API的主机名为对应环境（预发布环境或生产环境）的主机名；</li>-->
+                            <!--<li>压缩代码；</li>-->
+                            <!--<li>在文件名中添加MD5戳并替换对应的引用路径（对于模块化的JS文件，还要为加载器生成一份映射表）。</li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                <!--</section>-->
+                <!--<section class="project clearfix">-->
+                    <!--<div class="project__intro">-->
+                        <!--<header class="project__intro__header clearfix">-->
+                            <!--<h4 class="project__intro__header__title">56网HTML5视频上传</h4>-->
+                            <!--<ul class="tech-tag-list">-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-html">HTML 5</li>-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>-->
+                            <!--</ul>-->
+                            <!--<p class="project__intro__header__period">2013/3 至今</p>-->
+                        <!--</header>-->
+                        <!--<p>通过XMLHttpRequest 2.0实现支持PC现代浏览器、<strong>移动浏览器</strong>的视频上传，且能实时显示上传进度和速度。</p>-->
+                        <!--<p>后来进一步改良为<strong>断点续传</strong>，通过File类的slice方法把文件分块上传，并把上传进度记录在localStorage中。一旦上传中断，短时间内再上传同一个文件可以续传。</p>-->
+                        <!--<p class="project__intro__links">-->
+                            <!--<a href="http://upload.56.com/v/" target="_blank">在线地址</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                    <!--<div class="project__thumb">-->
+                        <!--<img src="images/project-56upload.jpg" alt="56网HTML5视频上传">-->
+                    <!--</div>-->
+                <!--</section>-->
+                <!--<section class="project clearfix">-->
+                    <!--<div class="project__intro">-->
+                        <!--<header class="project__intro__header clearfix">-->
+                            <!--<h4 class="project__intro__header__title">56网PC视频播放页</h4>-->
+                            <!--<ul class="tech-tag-list">-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-html">HTML</li>-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-css">CSS</li>-->
+                                <!--<li class="tech-tag-list__item tech-tag-list__item-javascript">Javascript</li>-->
+                            <!--</ul>-->
+                            <!--<p class="project__intro__header__period">2012/11 至今</p>-->
+                        <!--</header>-->
+                        <!--<p>用户观看视频的主页面，其大部分内容是通过JS加载的。为了提高性能，采用了<strong>延迟加载</strong>、<strong>延迟渲染</strong>、<strong>事件代理</strong>等优化方式。</p>-->
+                        <!--<p>此外，还通过监听页面的window.onerror事件<strong>对异常信息进行采集</strong>，以便及时发现和排查故障。</p>-->
+                        <!--<p class="project__intro__links">-->
+                            <!--<a href="http://www.56.com/u19/v_MTI2MDc5MTky.html" target="_blank">在线地址</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                    <!--<div class="project__thumb">-->
+                        <!--<img src="images/project-56pcplaypage.jpg" alt="56网PC视频播放页">-->
+                    <!--</div>-->
+                <!--</section>-->
                 <section class="project clearfix">
                     <div class="project__intro">
                         <header class="project__intro__header clearfix">
@@ -377,7 +377,7 @@
                             </ul>
                             <p class="project__intro__header__period">2015/1 至今</p>
                         </header>
-                        <p>为建立个人博客而开发的博客发布系统（上一版基于ASP.NET+SQLite开发），基于<strong>Express框架</strong>开发，页面由<strong>XTemplate</strong>模板引擎渲染，目前通过<strong>iisnode</strong>运行于IIS服务器上。</p>
+                        <p>为建立个人博客，基于<strong>Express框架</strong>开发，页面由<strong>XTemplate</strong>模板引擎渲染，目前通过<strong>iisnode</strong>运行于IIS服务器上。</p>
                         <p>前端方面，应用了<strong>媒体查询</strong>、<strong>字体图标</strong>等技术，还引入了<strong>highlight.js</strong>高亮代码，使用户体验更佳。</p>
                         <p class="project__intro__links">
                             <a href="https://github.com/heeroluo/letsblog" target="_blank">项目地址</a>

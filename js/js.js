@@ -1,6 +1,12 @@
 /**
  * Created by Administrator on 2016/4/22.
  */
+//QQ跳转
+//function qqhref(){
+//    var qq=document.write( 'a1b4c8d0e5f6g8h7iff8uii'.replace(/\D/g, '') );
+//    var href='tencent://message/?uin='+qq+'Site=&Menu=yes'
+//    window.open(href)
+//}
 //电话密码base64加密
 // console.log(window.btoa('(+86)18611605689'))
 function phonenumberencryption(){

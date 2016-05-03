@@ -71,9 +71,30 @@ a.button { display: inline-block; }
 
 
 /* 页头 */
-.header { border-bottom: 1px solid #d6d6d6; line-height: 1; padding: 15px 0; }
-.header__logo__fullname { font-size: 2em; font-family: 'PingHei', 'STHeiti SC', 'SimHei'; }
-.header__logo__jobtitle { color: #888; }
+/* 淡入 */
+[class^="header"]:hover{
+     transition:0.3s;
+     color: #b6b7b7;
+     cursor:pointer
+ }
+/* 淡出 */
+[class^="header"]{
+    transition:0.3s;
+    color: #fff;
+
+}
+
+.header {
+    /*border-bottom: 1px solid #d6d6d6; */
+    line-height: 1; padding: 15px 0;background: rgba(0,0,0,0.7);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);}
+.header__logo__fullname { font-size: 2em;
+    font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+    /*font-family: 'PingHei', 'STHeiti SC', 'SimHei';*/
+    color: #fff;
+    /*text-shadow: 0 1px 1px #000;*/
+}
+.header__logo__jobtitle { color: #fff; }
 .header__address { font-style: normal; line-height: 21px; font-size: 0.875em; }
 .header__address__item {
 	padding-left: 24px;
@@ -83,11 +104,12 @@ a.button { display: inline-block; }
 	height: 20px;
 	line-height: 20px;
 }
-.header__address__item-phone { background-position: 0 0; }
-.header__address__item-qq { background-position: 0 -28px; }
-.header__address__item-email { background-position: left bottom; }
-.header__address__item-blog { padding-left: 0; background: none; }
+.header__address__item-phone { background-position: 0 0;color: #fff; }
+.header__address__item-qq {  background-position: 0 -28px;  color: #fff;}
+.header__address__item-email { text-indent:5px;background-position: left bottom;color: #fff; }
+.header__address__item-blog { padding-left: 0; background: none;color: #fff; }
 .header__address .button { font-size: 0.86em; }
+
 
 @media (max-width: 319px) {
 	.header__logo { margin-bottom: 12px; line-height: 1.3; }
@@ -111,7 +133,7 @@ a.button { display: inline-block; }
 		position: fixed;
 		z-index: 99999;
 		overflow: hidden;
-		background: rgba(255, 255, 255, 0.95);
+
 	}
 	.header .boundary { position: relative; }
 	.header__logo { position: relative; float: left; }
