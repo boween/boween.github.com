@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490c9a00-014f-4999-b93a-1710ab53a213" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-sprites.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-v2.4.css" afterPath="$PROJECT_DIR$/css/style-v2.4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <ignored path="bowenresume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -643,7 +639,7 @@
       <updated>1461282242837</updated>
       <workItem from="1461282262837" duration="24829000" />
       <workItem from="1461562766829" duration="7791000" />
-      <workItem from="1461812084393" duration="47829000" />
+      <workItem from="1461812084393" duration="47916000" />
     </task>
     <task id="LOCAL-00001" summary="学校信息修改">
       <created>1461562862678</created>
@@ -681,11 +677,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461914211812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="header样式修改、ICON更换、文字的淡入淡出效果">
+      <created>1462263811434</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1462263811434</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80748000" />
+    <option name="totallyTimeSpent" value="80835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -759,7 +761,8 @@
     <MESSAGE value="IE9兼容优化" />
     <MESSAGE value="对电话进行Base64加密" />
     <MESSAGE value="把html文件中的JS代码移入.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="把html文件中的JS代码移入.js" />
+    <MESSAGE value="header样式修改、ICON更换、文字的淡入淡出效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="header样式修改、ICON更换、文字的淡入淡出效果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
