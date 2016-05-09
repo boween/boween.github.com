@@ -33,13 +33,16 @@ a:hover { text-decoration: underline; }
 }
 
 /* 内容边界 */
-@media (max-width: 749px) {
+@media (max-width: 749px)
+{
 	.boundary { margin: 0 20px; clear: both; }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px)
+{
 	.boundary { max-width: 980px; margin: 0 auto; clear: both; }
 }
-@media (min-width: 750px) and (max-width: 1040px) {
+@media (min-width: 750px) and (max-width: 1040px)
+{
 	.boundary {  margin: 0 30px; }
 }
 
