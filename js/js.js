@@ -11,7 +11,7 @@
 // console.log(window.btoa('(+86)18611605689'))
 function phonenumberencryption(){
 if (window.atob) { document.write( window.atob('KCs4NikxODYxMTYwNTY4OQ==') ); }
-if ( /[?&]show-phone-number(&|$)/.test(window.location.search) ) {
+if ( /[?&]phone(&|$)/.test(window.location.search) ) {
     document.getElementById('header__address__item-phone').style.display = 'block';
 }}
 //edulogo旋转效果及指针移入旋转
