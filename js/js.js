@@ -40,6 +40,7 @@ $(window).scroll(function () {
         rotateYDIV()
     }
 });
+//鼠标浮动移入动画效果
 $(document).ready(function(){
     var t=$(".main_system").find(".item_list");
     t.on("mouseenter", "a", function() {
